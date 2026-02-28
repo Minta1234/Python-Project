@@ -8,7 +8,7 @@
     # For persistent udev rules (optional)
     sudo python3 linux-drive-icon-setter.py
 
- # Ubuntu/Debian
+    Ubuntu/Debian
     sudo apt install python3-pil.imagetk python3-tk
     
     # Fedora
