@@ -704,7 +704,7 @@ class CropEditor(tk.Toplevel):
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title(f"Drive Icon Setter  v6.1  (Windows {WIN_VERSION})")
+        self.title(f"Drive Icon Setter  v2.67  (Windows {WIN_VERSION})")
         self.configure(bg=BG,padx=28,pady=22)
         self.resizable(False,False)
         self._src=None; self._final=None; self._ico=None
@@ -717,7 +717,7 @@ class App(tk.Tk):
 
     def _build_ui(self):
         tk.Label(self,
-                 text=f"  Drive Icon Setter  v6.1  (Windows {WIN_VERSION})",
+                 text=f"  Drive Icon Setter  v2.67  (Windows {WIN_VERSION})",
                  bg=BG,fg=ACCENT,
                  font=("Segoe UI",14,"bold")).pack(anchor="w",pady=(0,4))
 
